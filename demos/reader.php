@@ -12,7 +12,7 @@
  */
 namespace Application;
 
-require_once __DIR__ . '/../library/Robots/Reader.php';
+require_once __DIR__ . '/../src/Robots/Reader.php';
 
 use Robots;
 
