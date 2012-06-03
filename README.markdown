@@ -3,7 +3,7 @@
 ## Test with [Atoum](https://github.com/mageekguy/atoum)
 
 	cd Robots/
-	php library/mageekguy.atoum.phar -d Tests/Units/
+	php src/mageekguy.atoum.phar -d Tests/Units/
 	
 ## Reader
 
@@ -11,7 +11,7 @@
 <?php
 namespace Application;
 
-require_once __DIR__ . '/../library/Robots/Reader.php';
+require_once __DIR__ . '/../src/Robots/Reader.php';
 
 use Robots;
 
