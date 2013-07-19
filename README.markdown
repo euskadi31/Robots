@@ -1,9 +1,11 @@
 # Robots.txt
 
-## Test with [Atoum](https://github.com/mageekguy/atoum)
+## Test with [Atoum](https://github.com/atoum/atoum)
 
 	cd Robots/
-	php src/mageekguy.atoum.phar -d Tests/Units/
+	curl -s https://getcomposer.org/installer | php
+    php composer.phar install --dev
+	./vendor/atoum/atoum/bin/atoum --glob Tests/Units/
 	
 ## Reader
 

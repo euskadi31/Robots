@@ -12,7 +12,6 @@
  */
 namespace Robots\Tests\Units;
 
-require_once __DIR__ . '/../../src/mageekguy.atoum.phar';
 require_once __DIR__ . '/../../src/Robots/Reader.php';
 
 use \mageekguy\atoum;
