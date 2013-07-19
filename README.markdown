@@ -1,4 +1,4 @@
-# Robots.txt
+# Robots.txt [![Build Status](https://travis-ci.org/euskadi31/Robots.png)](https://travis-ci.org/euskadi31/Robots)
 
 ## Test with [Atoum](https://github.com/atoum/atoum)
 
